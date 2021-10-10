@@ -2,8 +2,8 @@
     "apiVersion": "template.openshift.io/v1",
     "kind": "Template",
     "labels": {
-        "app": "httpd-example-mg2",
-        "template": "httpd-example-mg2"
+        "app": "php-s2i-mg",
+        "template": "php-s2i-mg"
     },
     "message": "Los siguientes servicios seran generado en su proyecto: ${NAME}.\n\nLea lo siguiente, see https://github.com/sclorg/httpd-ex/blob/master/README.md.",
     "metadata": {
