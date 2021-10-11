@@ -8,7 +8,7 @@
 $host       = "mariadb";
 $username   = "user1";
 $password   = "master";
-$dbname     = "test";
+$dbname     = "test2";
 $dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
